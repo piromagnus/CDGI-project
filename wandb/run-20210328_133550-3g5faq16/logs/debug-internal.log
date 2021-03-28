@@ -1,0 +1,66 @@
+2021-03-28 13:35:52,234 INFO    MainThread:12960 [internal.py:wandb_internal():88] W&B internal server running at pid: 12960, started at: 2021-03-28 13:35:52.229286
+2021-03-28 13:35:52,236 INFO    WriterThread:12960 [datastore.py:open_for_write():77] open: C:\Users\pnk72\Downloads\CDGI-project\wandb\run-20210328_133550-3g5faq16\run-3g5faq16.wandb
+2021-03-28 13:35:52,236 DEBUG   HandlerThread:12960 [handler.py:handle_request():120] handle_request: check_version
+2021-03-28 13:35:52,242 DEBUG   SenderThread:12960 [sender.py:send():160] send: header
+2021-03-28 13:35:52,243 DEBUG   SenderThread:12960 [sender.py:send():160] send: request
+2021-03-28 13:35:52,244 DEBUG   SenderThread:12960 [sender.py:send_request():169] send_request: check_version
+2021-03-28 13:35:52,450 DEBUG   SenderThread:12960 [sender.py:send():160] send: run
+2021-03-28 13:35:52,790 INFO    SenderThread:12960 [sender.py:_start_run_threads():651] run started: 3g5faq16 with start time 1616931351
+2021-03-28 13:35:52,790 DEBUG   SenderThread:12960 [sender.py:send():160] send: summary
+2021-03-28 13:35:52,790 DEBUG   HandlerThread:12960 [handler.py:handle_request():120] handle_request: run_start
+2021-03-28 13:35:52,806 INFO    SenderThread:12960 [sender.py:_save_file():781] saving file wandb-summary.json with policy end
+2021-03-28 13:35:54,733 DEBUG   HandlerThread:12960 [meta.py:__init__():34] meta init
+2021-03-28 13:35:54,737 DEBUG   HandlerThread:12960 [meta.py:__init__():48] meta init done
+2021-03-28 13:35:54,737 DEBUG   HandlerThread:12960 [meta.py:probe():190] probe
+2021-03-28 13:35:54,738 DEBUG   HandlerThread:12960 [meta.py:_setup_git():180] setup git
+2021-03-28 13:35:54,818 DEBUG   HandlerThread:12960 [meta.py:_setup_git():187] setup git done
+2021-03-28 13:35:54,818 DEBUG   HandlerThread:12960 [meta.py:_save_pip():52] save pip
+2021-03-28 13:35:54,819 DEBUG   HandlerThread:12960 [meta.py:_save_pip():66] save pip done
+2021-03-28 13:35:54,819 DEBUG   HandlerThread:12960 [meta.py:probe():231] probe done
+2021-03-28 13:35:54,832 DEBUG   SenderThread:12960 [sender.py:send():160] send: files
+2021-03-28 13:35:54,832 INFO    SenderThread:12960 [sender.py:_save_file():781] saving file wandb-metadata.json with policy now
+2021-03-28 13:35:54,839 DEBUG   HandlerThread:12960 [handler.py:handle_request():120] handle_request: status
+2021-03-28 13:35:54,839 DEBUG   SenderThread:12960 [sender.py:send():160] send: request
+2021-03-28 13:35:54,839 DEBUG   SenderThread:12960 [sender.py:send_request():169] send_request: status
+2021-03-28 13:35:54,844 DEBUG   HandlerThread:12960 [handler.py:handle_request():120] handle_request: pause
+2021-03-28 13:35:54,844 INFO    HandlerThread:12960 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-03-28 13:35:55,136 DEBUG   SenderThread:12960 [sender.py:send():160] send: stats
+2021-03-28 13:36:10,141 DEBUG   HandlerThread:12960 [handler.py:handle_request():120] handle_request: status
+2021-03-28 13:36:10,141 DEBUG   SenderThread:12960 [sender.py:send():160] send: request
+2021-03-28 13:36:10,141 DEBUG   SenderThread:12960 [sender.py:send_request():169] send_request: status
+2021-03-28 13:36:11,256 DEBUG   HandlerThread:12960 [handler.py:handle_request():120] handle_request: resume
+2021-03-28 13:36:11,256 INFO    HandlerThread:12960 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-03-28 13:36:25,411 DEBUG   HandlerThread:12960 [handler.py:handle_request():120] handle_request: status
+2021-03-28 13:36:25,411 DEBUG   SenderThread:12960 [sender.py:send():160] send: request
+2021-03-28 13:36:25,411 DEBUG   SenderThread:12960 [sender.py:send_request():169] send_request: status
+2021-03-28 13:36:40,629 DEBUG   HandlerThread:12960 [handler.py:handle_request():120] handle_request: status
+2021-03-28 13:36:40,629 DEBUG   SenderThread:12960 [sender.py:send():160] send: request
+2021-03-28 13:36:40,630 DEBUG   SenderThread:12960 [sender.py:send_request():169] send_request: status
+2021-03-28 13:36:41,811 DEBUG   SenderThread:12960 [sender.py:send():160] send: stats
+2021-03-28 13:36:55,828 DEBUG   HandlerThread:12960 [handler.py:handle_request():120] handle_request: status
+2021-03-28 13:36:55,829 DEBUG   SenderThread:12960 [sender.py:send():160] send: request
+2021-03-28 13:36:55,829 DEBUG   SenderThread:12960 [sender.py:send_request():169] send_request: status
+2021-03-28 13:37:11,038 DEBUG   HandlerThread:12960 [handler.py:handle_request():120] handle_request: status
+2021-03-28 13:37:11,038 DEBUG   SenderThread:12960 [sender.py:send():160] send: request
+2021-03-28 13:37:11,039 DEBUG   SenderThread:12960 [sender.py:send_request():169] send_request: status
+2021-03-28 13:37:14,757 DEBUG   SenderThread:12960 [sender.py:send():160] send: stats
+2021-03-28 13:37:26,271 DEBUG   HandlerThread:12960 [handler.py:handle_request():120] handle_request: status
+2021-03-28 13:37:26,272 DEBUG   SenderThread:12960 [sender.py:send():160] send: request
+2021-03-28 13:37:26,272 DEBUG   SenderThread:12960 [sender.py:send_request():169] send_request: status
+2021-03-28 13:37:41,534 DEBUG   HandlerThread:12960 [handler.py:handle_request():120] handle_request: status
+2021-03-28 13:37:41,535 DEBUG   SenderThread:12960 [sender.py:send():160] send: request
+2021-03-28 13:37:41,535 DEBUG   SenderThread:12960 [sender.py:send_request():169] send_request: status
+2021-03-28 13:37:47,617 DEBUG   SenderThread:12960 [sender.py:send():160] send: stats
+2021-03-28 13:37:56,791 DEBUG   HandlerThread:12960 [handler.py:handle_request():120] handle_request: status
+2021-03-28 13:37:56,791 DEBUG   SenderThread:12960 [sender.py:send():160] send: request
+2021-03-28 13:37:56,791 DEBUG   SenderThread:12960 [sender.py:send_request():169] send_request: status
+2021-03-28 13:38:12,022 DEBUG   HandlerThread:12960 [handler.py:handle_request():120] handle_request: status
+2021-03-28 13:38:12,022 DEBUG   SenderThread:12960 [sender.py:send():160] send: request
+2021-03-28 13:38:12,022 DEBUG   SenderThread:12960 [sender.py:send_request():169] send_request: status
+2021-03-28 13:38:20,307 DEBUG   SenderThread:12960 [sender.py:send():160] send: stats
+2021-03-28 13:38:26,506 WARNING MainThread:12960 [internal.py:is_dead():343] Internal process exiting, parent pid 11008 disappeared
+2021-03-28 13:38:26,506 ERROR   MainThread:12960 [internal.py:wandb_internal():142] Internal process shutdown.
+2021-03-28 13:38:27,340 INFO    SenderThread:12960 [sender.py:finish():884] shutting down sender
+2021-03-28 13:38:27,340 INFO    WriterThread:12960 [datastore.py:close():258] close: C:\Users\pnk72\Downloads\CDGI-project\wandb\run-20210328_133550-3g5faq16\run-3g5faq16.wandb
+2021-03-28 13:38:27,340 INFO    HandlerThread:12960 [handler.py:finish():624] shutting down handler
+2021-03-28 13:38:29,735 INFO    MainThread:12960 [internal.py:handle_exit():78] Internal process exited
