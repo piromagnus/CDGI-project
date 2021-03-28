@@ -1,0 +1,24 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.8.5",
+    "heartbeatAt": "2021-03-27T23:21:51.475964",
+    "startedAt": "2021-03-27T23:21:47.707688",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "-f",
+        "C:\\Users\\pnk72\\AppData\\Roaming\\jupyter\\runtime\\kernel-a24dcabf-6041-4c3c-8c21-165aac99e0e2.json"
+    ],
+    "state": "running",
+    "program": "test/deepimageinpainting-master/Image_Inpainting_Autoencoder_decoder_approach.ipynb",
+    "root": "C:/Users/pnk72/Downloads/CDGI-project",
+    "git": {
+        "remote": "https://github.com/piromagnus/CDGI-project.git",
+        "commit": "609063fdc53f727c979649708dad3839118edb02"
+    },
+    "email": "s8pakrie@stud.uni-saarland.de",
+    "host": "DESKTOP-6QJPT1I",
+    "username": "pnk72",
+    "executable": "C:\\Users\\pnk72\\Anaconda3\\envs\\cgdi\\python.exe"
+}

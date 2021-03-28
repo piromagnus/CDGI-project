@@ -1,0 +1,75 @@
+2021-03-28 00:22:54,345 INFO    MainThread:8252 [wandb_setup.py:_flush():69] setting env: {}
+2021-03-28 00:22:54,345 INFO    MainThread:8252 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-03-28 00:22:54,345 WARNING MainThread:8252 [wandb_setup.py:_flush():69] interrupted
+Traceback (most recent call last):
+  File "C:\Users\pnk72\Anaconda3\envs\cgdi\lib\site-packages\IPython\core\interactiveshell.py", line 3437, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-26-6429845c7cb0>", line 1, in <module>
+    wandb.init(entity='ayush-thakur', project="image-impainting")
+  File "C:\Users\pnk72\Anaconda3\envs\cgdi\lib\site-packages\wandb\sdk\wandb_init.py", line 766, in init
+    raise e
+  File "C:\Users\pnk72\Anaconda3\envs\cgdi\lib\site-packages\wandb\sdk\wandb_init.py", line 742, in init
+    wi.setup(kwargs)
+  File "C:\Users\pnk72\Anaconda3\envs\cgdi\lib\site-packages\wandb\sdk\wandb_init.py", line 155, in setup
+    wandb_login._login(anonymous=anonymous, force=force, _disable_warning=True)
+  File "C:\Users\pnk72\Anaconda3\envs\cgdi\lib\site-packages\wandb\sdk\wandb_login.py", line 210, in _login
+    wlogin.prompt_api_key()
+  File "C:\Users\pnk72\Anaconda3\envs\cgdi\lib\site-packages\wandb\sdk\wandb_login.py", line 140, in prompt_api_key
+    key = apikey.prompt_api_key(
+  File "C:\Users\pnk72\Anaconda3\envs\cgdi\lib\site-packages\wandb\sdk\lib\apikey.py", line 135, in prompt_api_key
+    key = input_callback(api_ask).strip()
+  File "C:\Users\pnk72\Anaconda3\envs\cgdi\lib\site-packages\ipykernel\kernelbase.py", line 843, in getpass
+    return self._input_request(prompt,
+  File "C:\Users\pnk72\Anaconda3\envs\cgdi\lib\site-packages\ipykernel\kernelbase.py", line 904, in _input_request
+    raise KeyboardInterrupt("Interrupted by user") from None
+KeyboardInterrupt: Interrupted by user
+2021-03-28 00:22:54,356 INFO    MainThread:8252 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-03-28 00:22:54,356 INFO    MainThread:8252 [wandb_setup.py:_flush():69] setting login settings: {'api_key': '94d8e3ff3a46787b5d79451b83c0f27f5882ebb0'}
+2021-03-28 00:22:54,357 INFO    MainThread:8252 [wandb_init.py:_log_setup():336] Logging user logs to C:\Users\pnk72\Downloads\CDGI-project\wandb\run-20210328_002254-36pw8qt5\logs\debug.log
+2021-03-28 00:22:54,357 INFO    MainThread:8252 [wandb_init.py:_log_setup():337] Logging internal logs to C:\Users\pnk72\Downloads\CDGI-project\wandb\run-20210328_002254-36pw8qt5\logs\debug-internal.log
+2021-03-28 00:22:54,357 INFO    MainThread:8252 [wandb_init.py:init():369] calling init triggers
+2021-03-28 00:22:54,357 INFO    MainThread:8252 [wandb_init.py:init():374] wandb.init called with sweep_config: {}
+config: {}
+2021-03-28 00:22:54,358 INFO    MainThread:8252 [wandb_init.py:init():389] re-initializing run, found existing run on stack: 1l04lo94
+2021-03-28 00:22:54,359 INFO    MainThread:8252 [wandb_run.py:finish():1166] finishing run pkrieger/image-impainting/1l04lo94
+2021-03-28 00:22:54,360 INFO    MainThread:8252 [jupyter.py:save_history():320] not saving jupyter history
+2021-03-28 00:22:54,360 INFO    MainThread:8252 [jupyter.py:save_ipynb():265] not saving jupyter notebook
+2021-03-28 00:22:54,360 INFO    MainThread:8252 [wandb_init.py:_jupyter_teardown():268] cleaning up jupyter logic
+2021-03-28 00:22:54,360 INFO    MainThread:8252 [wandb_run.py:_atexit_cleanup():1477] got exitcode: 0
+2021-03-28 00:22:54,360 INFO    MainThread:8252 [wandb_run.py:_restore():1449] restore
+2021-03-28 00:22:54,561 INFO    MainThread:8252 [wandb_run.py:_wait_for_finish():1599] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 824
+  total_bytes: 824
+}
+
+2021-03-28 00:22:56,570 INFO    MainThread:8252 [wandb_run.py:_wait_for_finish():1599] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 6723
+  total_bytes: 6723
+}
+
+2021-03-28 00:22:58,151 INFO    MainThread:8252 [wandb_run.py:_show_files():1821] logging synced files
+2021-03-28 00:22:58,156 INFO    MainThread:8252 [wandb_init.py:init():418] starting backend
+2021-03-28 00:22:58,156 INFO    MainThread:8252 [backend.py:_multiprocessing_setup():69] multiprocessing start_methods=spawn, using: spawn
+2021-03-28 00:22:58,159 INFO    MainThread:8252 [backend.py:ensure_launched():123] starting backend process...
+2021-03-28 00:22:58,237 INFO    MainThread:8252 [backend.py:ensure_launched():127] started backend process with pid: 9304
+2021-03-28 00:22:58,238 INFO    MainThread:8252 [wandb_init.py:init():423] backend started and connected
+2021-03-28 00:22:58,249 INFO    MainThread:8252 [wandb_init.py:init():463] updated telemetry
+2021-03-28 00:22:58,250 INFO    MainThread:8252 [wandb_init.py:init():482] communicating current version
+2021-03-28 00:22:59,546 INFO    MainThread:8252 [wandb_init.py:init():487] got version response 
+2021-03-28 00:22:59,546 INFO    MainThread:8252 [wandb_init.py:init():495] communicating run to backend with 30 second timeout
+2021-03-28 00:23:29,548 INFO    MainThread:8252 [interface.py:_communicate_run():636] couldn't get run from backend
+2021-03-28 00:23:29,548 ERROR   MainThread:8252 [wandb_init.py:init():499] backend process timed out
+2021-03-28 00:23:29,548 ERROR   MainThread:8252 [wandb_init.py:init():508] encountered error: Error communicating with wandb process
+try: wandb.init(settings=wandb.Settings(start_method='fork'))
+or:  wandb.init(settings=wandb.Settings(start_method='thread'))
+For more info see: https://docs.wandb.ai/library/init#init-start-error
+2021-03-28 00:23:34,593 INFO    MainThread:8252 [wandb_init.py:teardown():187] tearing down wandb.init
